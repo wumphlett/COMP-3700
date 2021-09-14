@@ -7,7 +7,9 @@ os.environ.setdefault(
 )
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "elec_billing.settings")
 
-from django.core.wsgi import get_wsgi_application  # pylint: disable=wrong-import-position
+from django.core.wsgi import (
+    get_wsgi_application,
+)  # pylint: disable=wrong-import-position
 
 application = get_wsgi_application()
 
