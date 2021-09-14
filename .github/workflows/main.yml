@@ -27,9 +27,9 @@ jobs:
         pip install poetry
         poetry install
     - name: Check code formatting
-      run: black elec_billing --check
+      run: poetry run black elec_billing --check
     - name: Check code linting
-      run: pylint elec_billing
+      run: poetry run pylint elec_billing
     # - name: Run Tests
       # run: python elec_billing/manage.py test
 
