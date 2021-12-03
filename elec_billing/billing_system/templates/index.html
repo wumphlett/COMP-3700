@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Login{% endblock %}
+
+{% block script %}{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid" style="padding:25px">
+    <div class="title">
+        <h1>Welcome to your Electrical Payment System</h1>
+    </div>
+        <div class="row" style="height: 100%">
+            <div class="box-left">
+                <a href="/admin" type="button" class="btn btn-outline-dark btn-lg btn-block view-button tall-button"><b>Admin</b></a>
+            </div>
+            <div class="box-right">
+                <a href="/customer" type="button" class="btn btn-outline-dark btn-lg btn-block view-button tall-button"><b>Customer</b></a>
+            </div>
+        </div>
+</div>
+{% endblock %}

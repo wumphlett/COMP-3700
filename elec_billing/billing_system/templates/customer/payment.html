@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Payment{% endblock %}
+
+{% block script %}{% endblock %}
+
+{% block content %}
+<div class="container" style="display: flex; justify-content: center; padding: 40px">
+
+    <div id="loginbox" class="mainbox col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 border border-secondary rounded" style="padding: 30px; margin: 30px">
+
+        <div class="row">
+            <div class="iconmelon">
+              <img src="{% static 'general/img/logo.svg' %}">
+            </div>
+        </div>
+
+        <div class="panel panel-default" >
+            <div class="panel-heading">
+                <div class="panel-title text-center"><h3>Make Payment</h3></div>
+            </div>
+
+            <div class="panel-body" >
+
+                <form name="form" id="form" class="form-horizontal" enctype="multipart/form-data" method="POST" action="{% url 'customer_payment' %}">
+                    {% csrf_token %}
+                    <p>Payment Method</p>
+                    <div class="input-group">
+                        {{ form.payment_method }}
+                    </div>
+                    <p>Amount</p>
+                    <div class="input-group">
+                        {{ form.amount }}
+                    </div>
+                    <div style="display: none">
+                        {{ form.household }}
+                        {{ form.customer }}
+                    </div>
+
+                    {% if form.errors %}
+                        {% for error in form.errors %}
+                        {{ errors }}
+                        {% endfor %}
+                    {% endif %}
+
+                    <div class="form-group">
+                        <div class="col-sm-12 controls text-center">
+                            <button type="submit" class="btn btn-primary rounded-pill pull-right">Submit Payment</button>
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

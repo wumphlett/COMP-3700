@@ -1,0 +1,189 @@
+body {
+    background-color: white;
+}
+
+nav {
+    background-color: white;
+    color: black;
+}
+
+textarea {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+select {
+    max-width: 200px;
+    min-width: 200px;
+}
+
+.navbar-brand {
+    font-size: 36px;
+    color: black !important;
+    font-weight: bold;
+}
+
+#loginbox {
+    margin-top: 30px;
+}
+
+#loginbox > div:first-child {
+    padding-bottom: 10px;
+}
+
+.iconmelon {
+    display: block;
+    margin: auto;
+}
+
+#form > div {
+    margin-bottom: 25px;
+}
+
+#form > div:last-child {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.panel {
+    background-color: transparent;
+}
+
+.panel-body {
+    padding-top: 30px;
+    background-color: rgba(2555,255,255,.3);
+}
+
+#particles {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -2;
+}
+
+.iconmelon,
+.im {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  display: block;
+  fill: #525151;
+}
+
+.iconmelon:after,
+.im:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.box-left {
+    width: 43%;
+    min-height: 230px;
+    height: 45%;
+    float: left;
+    margin: 2% 2% 2% 5%;
+    padding: 0% 1%;
+    color: #fff
+}
+
+.box-right {
+    width: 43%;
+    min-height: 230px;
+    height: 45%;
+    float: right;
+    margin: 2% 5% 2% 2%;
+    padding: 0% 1%;
+    color: #fff
+}
+
+.box-total {
+    width: 86%;
+    min-height: 230px;
+    height: 100%;
+    margin: 2% 5% 2% 5%;
+    padding: 0% 1%;
+    color: #fff
+}
+
+.view-button {
+    width: 100%
+}
+
+.tall-button {
+    height: 300px;
+    font-size: 2em;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.input-widget {
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+.detail-widget {
+    text-align: left;
+}
+
+.button-widget {
+    margin: 10px;
+}
+
+.title {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+td {
+    vertical-align: middle;
+}
+
+.text-underline-hover {
+    text-decoration: none;
+}
+
+.text-underline-hover:hover {
+    text-decoration: underline;
+}
+
+a:not([class]) {
+    text-decoration: none;
+}
+
+a:not([class]):hover {
+    text-decoration: underline;
+}
+
+.choice-table {
+    font-size: .825rem;
+}
+
+.pad-bottom {
+    height: 10px;
+}
+
+table.dashboard > tbody > tr > td {
+    vertical-align: top;
+}
+
+table.small-font > tbody > tr > td {
+    font-size: .8em;
+    padding: 5px;
+}
+
+table.small-rows > tbody > tr > td {
+    padding: 3px;
+}
