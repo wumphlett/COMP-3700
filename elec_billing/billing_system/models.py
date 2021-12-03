@@ -18,7 +18,9 @@ class Household(models.Model):
 
 class User(AbstractUser):
     username = None
-    household = models.ForeignKey(Household, null=True, blank=True, on_delete=models.CASCADE)
+    household = models.ForeignKey(
+        Household, null=True, blank=True, on_delete=models.CASCADE
+    )
     first_name = models.CharField(max_length=150, blank=False)
     last_name = models.CharField(max_length=150, blank=False)
     email = models.EmailField(_("email address"), unique=True)
