@@ -1,4 +1,4 @@
-# COMP3700
+# COMP 3700
 COMP 3700 Project  
 Software Modeling and Design
 ## Project Description
