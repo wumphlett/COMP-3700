@@ -13,3 +13,29 @@ cd elec_billing
 python manage.py runserver
 # from there you can login to your copy of the website (127.0.0.1:8000), default creds are admin/admin
 ```
+
+```
+
+    Total Views per Day from 2022-08-15 to 2022-08-25
+
+    Repository Views
+    3.00  ┼         ╭
+    2.80  ┤         │
+    2.60  ┤         │
+    2.40  ┤         │
+    2.20  ┤         │
+    2.00  ┼─╮  ╭╮   │
+    1.80  ┤ │  ││   │
+    1.60  ┤ │  ││   │
+    1.40  ┤ │  ││   │
+    1.20  ┤ │  ││   │
+    1.00  ┤ │  ││   │
+    0.80  ┤ │  ││   │
+    0.60  ┤ │  ││   │
+    0.40  ┤ │  ││   │
+    0.20  ┤ │  ││   │
+    0.00  ┤ ╰──╯╰───╯
+
+    Chart last updated - Thu Aug 25 09:15:59 2022 UTC
+    
+```
