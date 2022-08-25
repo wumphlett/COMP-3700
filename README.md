@@ -1,4 +1,4 @@
-# COMP 3700
+# COMP3700
 COMP 3700 Project  
 Software Modeling and Design
 ## Project Description
@@ -36,6 +36,6 @@ python manage.py runserver
     0.20  ┤ │  ││   │
     0.00  ┤ ╰──╯╰───╯
 
-    Chart last updated - Thu Aug 25 09:15:59 2022 UTC
+    Chart last updated - Thu Aug 25 09:21:41 2022 UTC
     
 ```
