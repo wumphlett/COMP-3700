@@ -16,7 +16,7 @@ python manage.py runserver
 
 ```
 
-    Total Views per Day from 2022-08-15 to 2022-10-25
+    Total Views per Day from 2022-08-15 to 2022-10-26
 
     Repository Views
    59.00  ┼         ╭╮
@@ -33,9 +33,9 @@ python manage.py runserver
    15.73  ┤         ││
    11.80  ┤         ││
     7.87  ┤         ││                ╭╮
-    3.93  ┼─╮  ╭╮   ││╭╮   ╭╮   ╭╮╭╮  │╰╮    ╭╮                  ╭╮              ╭
-    0.00  ┤ ╰──╯╰───╯╰╯╰───╯╰───╯╰╯╰──╯ ╰────╯╰──────────────────╯╰──────────────╯
+    3.93  ┼─╮  ╭╮   ││╭╮   ╭╮   ╭╮╭╮  │╰╮    ╭╮                  ╭╮              ╭╮
+    0.00  ┤ ╰──╯╰───╯╰╯╰───╯╰───╯╰╯╰──╯ ╰────╯╰──────────────────╯╰──────────────╯╰
 
-    Chart last updated - Tue Oct 25 23:58:19 2022 UTC
+    Chart last updated - Wed Oct 26 23:58:15 2022 UTC
     
 ```
